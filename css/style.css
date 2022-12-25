@@ -1,0 +1,202 @@
+/* ---------------------------------------------------
+                        Import files 
+------------------------------------------------------ */
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@400;700&family=Poppins:wght@500&display=swap');
+
+/*------------------------------------
+            common styles
+  ------------------------------------ */
+  body{
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Comfortaa', cursive;
+    margin: 0;
+    background-color: #F3F1FF;
+    font-weight: lighter;
+  }
+
+  /*===========================
+        starting header style 
+   ============================ */
+   header{
+    background-color:#562EFF;
+    height: 76.6px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+   }
+   .container{
+    width: 870px;
+   }
+   .header-contant{
+    display: flex;
+    justify-content: space-between;
+   }
+   .logo{
+    display: flex;
+    align-items: center;
+   }
+   .logo img{
+    height: 51px;
+    width: 40.42px;
+    margin-right: 5px;
+   }
+   .logo h2{
+    color: white;
+   }
+   .nav-contain{
+    display: flex;
+    align-items: center;
+   }
+   .nav-contain h2{
+    font-size: 16px;
+    color: white;
+    margin-right: 36px;
+   }
+   .nav-contain img{
+    height: 51px;
+    width: 51px;
+   }
+
+   /*==============================
+            ending of header 
+    ================================ */
+    .player-section{
+        width: 100%;
+        display: flex;
+        justify-content: center
+    }
+    .player{
+        display: flex;
+        align-items: center;
+    }
+    .player img{
+        height: 51px;
+        width: 51px;
+        margin-right: 10px;
+    }
+    .container2{
+        width: 870px;
+        height: 680px;
+        background-color: #FFFFFF;
+        border-radius: 5px;
+        margin-top: 35px;
+    }
+    .lead-players h1{
+        margin-left: 30px;
+        color: #562EFF;
+        margin-bottom: 30px;
+    }
+    .players{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        padding-left: 30px;
+        grid-row-gap: 20px ;
+    }
+    hr{
+        margin: 30px;
+    }
+    .blogs{
+        margin-left: 30px;
+        display: grid;
+        grid-template-columns:repeat(2,1fr);
+        grid-row-gap: 40px;
+    }
+    .blog-header{
+        margin-left: 30px;
+        color: #562EFF;
+        margin-bottom: 40px;
+        margin-top: 40px;
+
+    }
+
+    .blog{
+        display: flex;
+        align-items: center;
+    }
+
+    .blog-image img{
+        width: 177px;
+        height: 117px;
+        margin-right: 10px;
+    }
+    .blog-contant{
+        margin-left: 5px;
+    }
+    .blog-heading h1{
+        font-size: 20px;
+    }
+    .blog-seemore h5{
+        color: #562EFF;
+        margin-top: -15px;
+    }
+    .blog-seemore h5 span{
+        color: lightgrey;
+    }
+
+    /*================end of blog ================ */
+
+    .course-section{
+        margin-bottom: 50px;
+    }
+    .courses{
+        width: 100%;
+        display: flex;
+        justify-content: center
+    }
+    .container3{
+        width: 870px;
+        height: 450px;
+        background-color: #FFFFFF;
+        border-radius: 5px;
+        margin-top: 35px;
+        display: flex;
+        align-items: center;
+    }
+    .second-container .course-heading{
+        margin-left: 30px;
+        color: #562EFF;
+        margin-top: 15px;
+    }
+    .all-courses{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+    .course{
+        height: 269.79px;
+        width:252.42px ;
+        padding: 20px 5px;
+        margin: 0px 11px;
+        border-radius: 10px;
+        padding-left: 10px;
+        box-shadow: -5px 10px 8.1px whitesmoke;
+    }
+    .course-pic img{
+        height: 104px;
+        width: 224px;
+    }
+    .course-pic h1{
+        font-size: 20px;
+    
+        font-weight: lighter;
+    }
+    .course-caontant{
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+    }
+    .time{
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        height: 30px;
+        width: 95px;
+        background-color: #FFE4E8;
+        border-radius: 50px;
+    }
+    .star .fa-star,.fa-star-half{
+        color: #FFC014;
+    }
+    .time i,h5{
+        color: #FF4A60;
+    }
